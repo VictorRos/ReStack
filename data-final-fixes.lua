@@ -34,7 +34,7 @@ for _, group in pairs(data.raw) do
         item.stack_size = ReStack_Items[item_name].stack_size
         log("[RS] Setting "..tostring(stack_data.type).."."..tostring(item_name)..".stack_size "..stack_data.stack_size)
       else
-        log("[RS] Skipping rocket-launch-produkt "..tostring(stack_data.type).."."..tostring(item_name))
+        log("[RS] Skipping rocket-launch-product "..tostring(stack_data.type).."."..tostring(item_name))
       end
     end
   end
